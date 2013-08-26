@@ -1,0 +1,19 @@
+{
+  "name": "crp-platform-test",
+  "version": "0.0.1",
+  "description": "Simple test to check if the CrowdProcess platform is running",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stigdreyer/crp-platform-test.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Stig Dreyer",
+  "dependencies": {
+    "crp-task-producer-client": "*",
+    "crp-task-client": "*",
+    "crp-auth-client": "*"
+  }
+}
